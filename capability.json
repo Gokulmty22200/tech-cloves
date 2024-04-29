@@ -1,0 +1,23 @@
+[
+    {
+      "image": "Capability_AI.jpg",
+      "header": "Card 1",
+      "content": "Content for Card 1"
+    },
+    {
+      "image": "image2.jpg",
+      "header": "Card 2",
+      "content": "Content for Card 2"
+    },
+    {
+      "image": "image3.jpg",
+      "header": "Card 3",
+      "content": "Content for Card 3"
+    },
+    {
+        "image": "image3.jpg",
+        "header": "Card 3",
+        "content": "Content for Card 3"
+      }
+  ]
+  
