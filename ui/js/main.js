@@ -177,12 +177,21 @@
                 itemSelector: '.entry',
                 columnWidth: '.grid-sizer',
                 percentPosition: true,
-                resize: true
+                resize: true,
+                gutter: '.gutter-sizer'
             });
 
         });
 
+        setTimeout(function() {
+            containerBricks.querySelectorAll('.entry').forEach(function(item) {
+                item.style.height = '100%';
+            });
+        }, 3000);
+
     }; // end ssMasonry
+
+    
 
 
    /* swiper
