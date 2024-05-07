@@ -4,6 +4,7 @@
 
 .corousel-heading{
     color: #f26321;
+    font-size: var(--text-xxl);
 }
 
 .center-heading{
@@ -12,19 +13,57 @@
 
 .grid-sizer,
 .gutter-sizer {
-    width: calc(2% - 10px); /* Adjust width based on your design and gutter size */
+    width: calc(2% - 10px); 
 }
 
-/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .grid-sizer,
     .gutter-sizer {
-        width: calc(50% - 20px); /* Adjust width for smaller screens */
+        width: calc(50% - 20px); 
     }
 }
 
 @media screen and (max-width: 768px) {
     .img-slide {
-        display: none; /* Hide the background image div */
+        display: none;
     }
+}
+
+@media screen and (max-width: 1250px) {
+    .big-screen {
+        display: none;
+    }
+}
+
+.mobile-icon {
+    display: none;
+}
+
+.mobile-flex {
+    align-items: center;
+}
+
+.title-class {
+    font-size: 40px;
+    font-style: italic;
+}
+
+@media (max-width: 1250px) {
+    .mobile-icon {
+        display: block; 
+    }
+    .image-mobile {
+        height: 40Vh;
+    }
+    .title-class {
+    font-size: xx-large;
+    font-style: italic;
+}
+.modal-popup img {
+    height: 40Vh;
+}
+}
+
+.tech-cloves-colour{
+    color: #f26351;
 }
